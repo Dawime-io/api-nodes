@@ -1,7 +1,7 @@
 // External Dependancies
 const mongoose = require('mongoose')
 
-const carSchema = new mongoose.Schema({
+const buildSchema = new mongoose.Schema({
   title: String,
   author: String,
   type: String,
@@ -9,4 +9,4 @@ const carSchema = new mongoose.Schema({
   
 })
 
-module.exports = mongoose.model('Car', carSchema)
+module.exports = mongoose.model('Builds', buildSchema)
