@@ -6,7 +6,8 @@ const buildSchema = new mongoose.Schema({
   author: String,
   type: String,
   build: String,
-  
+  link: String,
+   
 })
 
 module.exports = mongoose.model('Builds', buildSchema)

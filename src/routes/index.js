@@ -19,6 +19,12 @@ const routes = [
     
   },
   {
+    method: 'POST',
+    url: '/api/upload',
+    handler: buildController.uploadbuild,
+    
+  },
+  {
     method: 'PUT',
     url: '/api/builds/:id',
     handler: buildController.updatebuilds
